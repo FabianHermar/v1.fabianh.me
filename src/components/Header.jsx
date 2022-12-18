@@ -22,7 +22,7 @@ const Header = () => {
   }, [])
 
   return (
-    <nav className={`fixed w-full left-0 top-0 z-[999] ${sticky ? 'bg-white/50 backdrop-filter backdrop-blur-md duration-[.1s] text-black' : 'text-white'}`}>
+    <nav className={`fixed w-full left-0 top-0 z-[999] font-[Tussila] ${sticky ? 'bg-white/50 backdrop-filter backdrop-blur-md duration-[.1s] text-black' : 'text-white'}`}>
       <div className='flex items-center justify-between'>
         <div className='mx-7 select-none'>
           <img src={FHLogo} alt='logo' className='w-12 h-12' />

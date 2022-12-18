@@ -6,3 +6,44 @@
 body {
     background-color: #DCE2E7;
 }
+
+@layer base {
+    @font-face {
+        font-family: 'Cindie';
+        src: url(/assets/Fonts/Cindie.woff2) format('woff2'), url(/assets/Fonts/Cindie.woff) format('woff');
+    }
+    @font-face {
+        font-family: 'FBB';
+        src: url(/assets/Fonts/FBB.woff2) format('woff2'), url(/assets/Fonts/FBB.woff) format('woff');
+    }
+    @font-face {
+        font-family: 'Sequel';
+        src: url(/assets/Fonts/Sequel.woff2) format('woff2'), url(/assets/Fonts/Sequel.woff) format('woff');
+    }
+    @font-face {
+        font-family: 'Tussila';
+        src: url(/assets/Fonts/Tussila.woff2) format('woff2'), url(/assets/Fonts/Tussila.woff) format('woff');
+    }
+}
+
+.btn-contact {
+    @apply bg-sky-500 hover:bg-gray-800 ease-in duration-150 font-[Sequel] tracking-[1.5px] md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2 hover:text-white;
+}
+
+::selection {
+    background: rgba(0, 157, 255, 0.3);
+    color: black;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgba(255,255,255,0.5)
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgb(82, 82, 82);
+    border-radius: 20px;
+}
