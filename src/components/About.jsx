@@ -1,4 +1,5 @@
-import FHLogo from '../../assets/FHW.png'
+import AboutMe from '../../assets/about-me.webp'
+import AboutMe2 from '../../assets/about-me2.webp'
 
 const About = () => {
   const info = [
@@ -16,7 +17,7 @@ const About = () => {
           <div>
             <div className='p-2'>
               <p className='text-gray-600 text-left leading-7 font-[FBB] text-lg w-11/12 mx-auto'>
-                Hace más de 2 años que me dedicó a la programación por el estudio de mi carrera de Ingeniería en Desarrollo y Gestión de Software y he descubierto que tiene un gran potencial para mi futuro.
+                Desarrollando mis habilidades lógicas y creativas en el mundo del desarrollo de software. Desde hace más de 2 años que me dedicó a la programación por el estudio de mi carrera de Ingeniería en Desarrollo y Gestión de Software y he descubierto que tiene un gran potencial para mi futuro.
               </p>
               <p className='text-gray-600 text-left leading-7 font-[FBB] text-lg w-11/12 mx-auto'>
                 Me gusta mucho aprender cosas nuevas y sobre todo me gusta mucho todo lo relacionado con las tecnologías web, por lo que actualmente me estoy especializando en el diseño y programación web.
@@ -38,7 +39,8 @@ const About = () => {
           </div>
           <div className='flex-1 md:mt-10 mt-16 flex justify-center items-center'>
             <div className='lg:w-96 h-full relative sm:w-10/12 w-11/12 max-w-sm about-me'>
-              <img src={FHLogo} alt='Logo' className='w-full object-cover bg-gray-500 rounded-xl about select-none' />
+              <img src={AboutMe} alt='About Me' className='w-full object-cover bg-gray-500 rounded-xl about select-none hidden md:block' />
+              <img src={AboutMe2} alt='About Me' className='w-full object-cover bg-gray-500 rounded-xl about select-none md:hidden about' />
             </div>
           </div>
         </div>
