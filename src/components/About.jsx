@@ -1,4 +1,4 @@
-import FHLogo from '../../assets/fhw.png'
+import FHLogo from '../../assets/FHW.png'
 
 const About = () => {
   const info = [
