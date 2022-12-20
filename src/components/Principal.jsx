@@ -26,7 +26,7 @@ const Principal = () => {
             <span className='font-[Sequel] text-gray-800 md:text-6xl text-5xl'>Fabian Herrera</span>
           </h1>
           <h3 className='font-[Tussila] text-gray-600 md:2xl text-xl md:leading-normal leading-5 mt-4'><span>Frontend Developer</span></h3>
-          <button className='btn-contact mt-8' onClick={contact}>Contacta Me</button>
+          <button className='btn-contact mt-8' onClick={contact}>Contáctame</button>
           <div className='mt-8 text-3xl flex items-center md:justify-start justify-center gap-6'>
             {
               socialMedia?.map((social, icon) => (
