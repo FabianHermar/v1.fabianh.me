@@ -1,4 +1,9 @@
 import HTML from '../../assets/logos/HTML.webp'
+import CSS from '../../assets/logos/CSS.webp'
+import JavaScript from '../../assets/logos/JavaScript.webp'
+import React from '../../assets/logos/React.webp'
+import TailwindCSS from '../../assets/logos/TailwindCSS.webp'
+import MySQL from '../../assets/logos/MySQL.webp'
 
 const Skills = () => {
   const skills = [
@@ -9,31 +14,31 @@ const Skills = () => {
       count: 65
     },
     {
-      logo: '/assets/logos/CSS.webp',
+      logo: CSS,
       title: 'CSS3',
       level: 'Intermedio',
       count: 65
     },
     {
-      logo: '/assets/logos/JavaScript.webp',
+      logo: JavaScript,
       title: 'JavaScript',
       level: 'Principiante',
       count: 32.5
     },
     {
-      logo: '/assets/logos/React.webp',
+      logo: React,
       title: 'React',
       level: 'Principiante',
       count: 32.5
     },
     {
-      logo: '/assets/logos/TailwindCSS.webp',
+      logo: TailwindCSS,
       title: 'TailwindCSS',
       level: 'Principiante',
       count: 32.5
     },
     {
-      logo: '/assets/logos/MySQL.webp',
+      logo: MySQL,
       title: 'MySQL',
       level: 'Principiante',
       count: 32.5
