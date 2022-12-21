@@ -1,37 +1,37 @@
 const Skills = () => {
   const skills = [
     {
-      logo: '/assets/logos/HTML.webp',
+      logo: '../../assets/logos/HTML.webp',
       title: 'HTML5',
       level: 'Intermedio',
       count: 65
     },
     {
-      logo: '/assets/logos/CSS.webp',
+      logo: '../../assets/logos/CSS.webp',
       title: 'CSS3',
       level: 'Intermedio',
       count: 65
     },
     {
-      logo: '/assets/logos/JavaScript.webp',
+      logo: '../../assets/logos/JavaScript.webp',
       title: 'JavaScript',
       level: 'Principiante',
       count: 32.5
     },
     {
-      logo: '/assets/logos/React.webp',
+      logo: '../../assets/logos/React.webp',
       title: 'React',
       level: 'Principiante',
       count: 32.5
     },
     {
-      logo: '/assets/logos/TailwindCSS.webp',
+      logo: '../../assets/logos/TailwindCSS.webp',
       title: 'TailwindCSS',
       level: 'Principiante',
       count: 32.5
     },
     {
-      logo: '/assets/logos/MySQL.webp',
+      logo: '../../assets/logos/MySQL.webp',
       title: 'MySQL',
       level: 'Principiante',
       count: 32.5
