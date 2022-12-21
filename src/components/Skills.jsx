@@ -1,13 +1,15 @@
+import HTML from '../../assets/logos/HTML.webp'
+
 const Skills = () => {
   const skills = [
     {
-      logo: '/assets/logos/HTML.webp',
+      logo: HTML,
       title: 'HTML5',
       level: 'Intermedio',
       count: 65
     },
     {
-      logo: '/assets/CSS.png',
+      logo: '/assets/logos/CSS.webp',
       title: 'CSS3',
       level: 'Intermedio',
       count: 65
