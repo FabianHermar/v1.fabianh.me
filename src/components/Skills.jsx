@@ -7,7 +7,7 @@ const Skills = () => {
       count: 65
     },
     {
-      logo: '/assets/CSS.webp',
+      logo: '/assets/logos/CSS.webp',
       title: 'CSS3',
       level: 'Intermedio',
       count: 65
