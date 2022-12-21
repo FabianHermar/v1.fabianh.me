@@ -8,7 +8,7 @@ const About = () => {
     { text: 'Empresas en las que he trabajado', number: '01' }
   ]
   return (
-    <section id='about' className='py-10 text-black'>
+    <section id='about' className='py-10 text-black mb-10'>
       <div className='text-center mt-8'>
         <h3 className='text-3xl font-[Cindie] drop-shadow-lg'>
           Sobre mi
