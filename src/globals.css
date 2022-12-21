@@ -33,9 +33,6 @@ body {
 .about-me::after {
     @apply content-[''] w-full left-0 top-0 rounded-xl rotate-12 h-full absolute bg-gray-300 drop-shadow-md -z-10;
 }
-.about{
-    @apply drop-shadow-md
-}
 
 ::selection {
     background: rgba(0, 157, 255, 0.3);
