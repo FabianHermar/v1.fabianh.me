@@ -37,7 +37,7 @@ export const Contact = () => {
                   <label for='name' className='leading-7 text-[20px] text-black font-[Tussila]'>
                     Nombre
                   </label>
-                  <input type='text' name='user_name' className='w-full bg-gray-100 rounded border border-gray-300 focus:border-sky-600 text-lg font-medium outline-none text-black font-[FBB] py-2 px-3 leading-8 transition-colors duration-200 ease-in-out' />
+                  <input required type='text' name='user_name' className='w-full bg-gray-100 rounded border border-gray-300 focus:border-sky-600 text-lg font-medium outline-none text-black font-[FBB] py-2 px-3 leading-8 transition-colors duration-200 ease-in-out' />
                 </div>
               </div>
               <div className='p-2 w-1/2'>
@@ -45,7 +45,7 @@ export const Contact = () => {
                   <label for='email' className='leading-7 text-[20px] text-black font-[Tussila]'>
                     Email
                   </label>
-                  <input type='email' name='user_email' className='w-full bg-gray-100 rounded border border-gray-300 focus:border-sky-600 text-lg outline-none text-black font-[FBB] py-2 px-3 leading-8 transition-colors duration-200 ease-in-out' />
+                  <input required type='email' name='user_email' className='w-full bg-gray-100 rounded border border-gray-300 focus:border-sky-600 text-lg outline-none text-black font-[FBB] py-2 px-3 leading-8 transition-colors duration-200 ease-in-out' />
                 </div>
               </div>
               <div className='p-2 w-full'>
@@ -53,7 +53,7 @@ export const Contact = () => {
                   <label for='message' className='leading-7 text-[20px] text-black font-[Tussila]'>
                     Mensaje
                   </label>
-                  <textarea name='message' className='w-full bg-gray-100 rounded border border-gray-300 focus:border-sky-600 h-32 text-xl outline-none text-black py-2 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out font-[FBB]'></textarea>
+                  <textarea required name='message' className='w-full bg-gray-100 rounded border border-gray-300 focus:border-sky-600 h-32 text-xl outline-none text-black py-2 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out font-[FBB]'></textarea>
                 </div>
               </div>
               <div className='p-2 w-full'>
