@@ -47,9 +47,7 @@ const Skills = () => {
   return (
     <section id='skills' className='py-10 backdrop-filter backdrop-blur-lg bg-gray-300/40 relative'>
       <div className='mt-2 text-black text-center'>
-        <h3 className='text-4xl font-[Tussila]'>
-          Habilidades
-        </h3>
+        <h3 className='text-4xl font-[Tussila] drop-shadow-lg'>Habilidades</h3>
         <div className='flex items-center justify-center mt-12 gap-10 flex-wrap'>
           {
            skills?.map((skill, i) => (

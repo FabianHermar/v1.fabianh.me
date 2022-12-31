@@ -27,7 +27,7 @@ body {
 }
 
 .btn-contact {
-    @apply bg-sky-500 hover:bg-gray-800 ease-in duration-150 font-[Sequel] tracking-[1.5px] md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2 hover:text-white;
+    @apply bg-sky-500 text-black hover:bg-gray-800 ease-in duration-150 font-[Sequel] tracking-[1.5px] md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2 hover:text-white;
 }
 
 .about-me::after {
