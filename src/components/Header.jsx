@@ -10,7 +10,8 @@ const Header = () => {
     { name: 'Sobre mi', link: '#about' },
     { name: 'Habilidades', link: '#skills' },
     { name: 'Proyectos', link: '#projects' },
-    { name: 'Contacto', link: '#contact' }
+    { name: 'Contacto', link: '#contact' },
+    { name: '✨VTX✨', link: 'https://visual-tradex.com' }
 
   ]
 
@@ -31,7 +32,7 @@ const Header = () => {
           <ul className='flex items-center gap-1 py-2 text-lg'>
             {
               menuLinks?.map((menu, i) => (
-                <li key={i} className='px-6 hover:text-sky-500 ease-in duration-150'>
+                <li key={i} className='px-4 hover:text-sky-500 ease-in duration-150'>
                   <a href={menu?.link}>{menu?.name}</a>
                 </li>
               ))
