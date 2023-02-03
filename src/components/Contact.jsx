@@ -20,11 +20,11 @@ export const Contact = () => {
   }
 
   return (
-    <section id='contact' className='text-black body-font relative'>
+    <section id='contact' className='text-black body-font relative bg-gray-300/40'>
       <Toaster />
       <div className='container px-5 py-10 mx-auto'>
         <div className='flex flex-col text-center w-full mb-12'>
-          <h1 className='md:text-4xl text-3xl font-medium title-font mb-4 text-black font-[Tussila] drop-shadow-lg'>Contáctame</h1>
+          <h2 className='md:text-4xl text-3xl font-medium title-font mb-4 text-black font-[Tussila] drop-shadow-lg'>Contáctame</h2>
           <p className='lg:w-2/3 mx-auto leading-relaxed text-lg font-[FBB]'>
             ¿Tienes alguna pregunta o quieres trabajar conmigo? ¡No dudes en contactarme!
           </p>
