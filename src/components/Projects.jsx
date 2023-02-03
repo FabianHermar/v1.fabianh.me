@@ -1,10 +1,14 @@
+import CO from '../../assets/Projects/CO.webp'
+import SSD from '../../assets/Projects/SSD.webp'
+import DGT from '../../assets/Projects/DGT.webp'
+
 const Projects = () => {
   return (
     <section className='py-10' id='projects'>
       <h2 className='text-4xl font-[Tussila] drop-shadow-lg text-center pb-4'>Proyectos</h2>
       <div className='flex flex-col lg:flex-row justify-center items-center lg:justify-around gap-6'>
         <div className='mt-2'>
-          <img alt='Home' src='../assets/Projects/CO.webp' className='h-56 w-auto rounded-md object-cover' />
+          <img alt='Cinnamon Overoll' src={CO} className='h-56 w-auto rounded-md object-cover' />
           <div>
             <div className='flex gap-2 pt-2'>
               <span className='inline-block bg-orange-400 bg-opacity-75 rounded px-1 py-1 text-sm font-[FBB] font-bold text-orange-900 hover:shadow-sm duration-150 hover:scale-105'>Astro</span>
@@ -27,7 +31,7 @@ const Projects = () => {
         </div>
 
         <div className='mt-2'>
-          <img alt='Home' src='../assets/Projects/SSD.webp' className='h-56 w-auto rounded-md object-cover' />
+          <img alt='School System Design' src={SSD} className='h-56 w-auto rounded-md object-cover' />
           <div>
             <div className='flex gap-2 pt-2'>
               <span className='inline-block bg-orange-400 bg-opacity-75 rounded px-1 py-1 text-sm font-[FBB] font-bold text-orange-900 hover:shadow-sm duration-150 hover:scale-105'>HTML5</span>
@@ -50,7 +54,7 @@ const Projects = () => {
         </div>
 
         <div className='mt-2'>
-          <img alt='Home' src='../assets/Projects/DGT.webp' className='h-56 w-auto rounded-md object-cover' />
+          <img alt='Home' src={DGT} className='h-56 w-auto rounded-md object-cover' />
           <div>
             <div className='flex gap-2 pt-2'>
               <span className='inline-block bg-orange-400 bg-opacity-75 rounded px-1 py-1 text-sm font-[FBB] font-bold text-orange-900 hover:shadow-sm duration-150 hover:scale-105'>HTML5</span>
