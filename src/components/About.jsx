@@ -3,9 +3,9 @@ import AboutMe2 from '../../assets/about-me2.webp'
 
 const About = () => {
   const info = [
-    { text: 'Meses de Experiencia', number: '+06' },
+    { text: 'Meses de Experiencia', number: '+10' },
     { text: 'Proyectos Completados', number: '03' },
-    { text: 'Empresas en las que he trabajado', number: '01' }
+    { text: 'Empresas en las que he trabajado', number: '02' }
   ]
   return (
     <section id='about' className='py-10 text-black mb-10'>
@@ -37,8 +37,8 @@ const About = () => {
           </div>
           <div className='flex-1 md:mt-10 mt-16 flex justify-center items-center'>
             <div className='lg:w-96 h-full relative sm:w-10/12 w-11/12 max-w-sm about-me'>
-              <img src={AboutMe} alt='About Me' className='w-full object-cover bg-gray-500 rounded-xl about select-none hidden md:block' />
-              <img src={AboutMe2} alt='About Me' className='w-full object-cover bg-gray-500 rounded-xl about select-none md:hidden about' />
+              <img src={AboutMe} alt='About Me' className='w-full object-cover bg-gray-500 rounded-xl about select-none hidden md:block' loading='lazy' />
+              <img src={AboutMe2} alt='About Me' className='w-full object-cover bg-gray-500 rounded-xl about select-none md:hidden about' loading='lazy' />
             </div>
           </div>
         </div>

@@ -54,7 +54,7 @@ const Skills = () => {
              <div key={i} className='border-2 group border-gray-200/50 relative min-w-[10rem] max-w-[16rem] backdrop-filter backdrop-blur-lg bg-gray-400/20 p-10 rounded-xl'>
                <div style={{ background: `conic-gradient(rgba(62,143,239, 0.6) ${skill.count}%,#ddd ${skill.count}%)` }} className='w-32 h-32 flex items-center justify-center rounded-full'>
                  <div className='text-6xl w-28 h-28 bg-gray-300 rounded-full flex items-center justify-center group-hover:text-yellow-500'>
-                   <img src={skill.logo} alt={skill.title} title={skill.title} className='select-none' />
+                   <img src={skill.logo} alt={skill.title} title={skill.title} className='select-none' loading='lazy' />
                  </div>
                </div>
                <p className='font-[Sequel] text-sm mt-3'>{skill.level}</p>
