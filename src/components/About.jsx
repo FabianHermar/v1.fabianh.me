@@ -15,10 +15,10 @@ const About = () => {
           <div>
             <div className='p-2'>
               <p className='text-gray-600 text-left leading-7 font-[FBB] text-lg w-11/12 mx-auto'>
-                Desarrollando mis habilidades lógicas y creativas en el mundo del desarrollo de software. Desde hace más de 2 años que me dedicó a la programación por el estudio de mi carrera de Ingeniería en Desarrollo y Gestión de Software y he descubierto que tiene un gran potencial para mi futuro.
+                Desde hace más de 2 años, estoy desarrollando mis habilidades tanto lógicas como creativas en el campo del desarrollo de software. Mi interés por esta área surgió a través de mi carrera de Ingeniería en Desarrollo y Gestión de Software, y desde entonces he descubierto que tengo una gran pasión por la programación y un gran potencial para mi futuro profesional.
               </p>
               <p className='text-gray-600 text-left leading-7 font-[FBB] text-lg w-11/12 mx-auto'>
-                Me gusta mucho aprender cosas nuevas y sobre todo me gusta mucho todo lo relacionado con las tecnologías web, por lo que actualmente me estoy especializando en el diseño y programación web.
+                Me encanta aprender cosas nuevas y estoy especialmente interesado en las tecnologías web. Por ello, he decidido especializarme en el diseño y programación web. Me gusta mucho trabajar en proyectos que requieran una combinación de habilidades técnicas y creativas, y estoy constantemente buscando nuevos desafíos para mejorar mis conocimientos y habilidades en este campo.
               </p>
               <div className='flex mt-10 items-center gap-7'>
                 {
