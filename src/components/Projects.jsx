@@ -68,7 +68,7 @@ const Projects = () => {
               <a href='https://github.com/FabianHMzz/D-Gabbiani-Trajes' target='_blank' rel='noopener noreferrer' className='duration-150 hover:scale-105 hover:shadow-sm'>
                 <img src='https://img.shields.io/badge/Repo-100000?style=for-the-badge&logo=github&logoColor=white' alt='Repo' title='Repository' loading='lazy' />
               </a>
-              <a href='https://fabianhmzz.github.io/D-Gabbiani-Trajes/' target='_blank' rel='noopener noreferrer'>
+              <a href='https://fabianhmzz.github.io/D-Gabbiani-Trajes/' target='_blank' rel='noopener noreferrer' className='duration-150 hover:scale-105 hover:shadow-sm'>
                 <img src='https://img.shields.io/badge/Deploy-000000?style=for-the-badge&logo=vercel&logoColor=white' alt='Live Demo' title='Live Demostration' loading='lazy' />
               </a>
             </div>
