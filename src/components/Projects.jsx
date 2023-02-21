@@ -87,6 +87,7 @@ const Projects = () => {
               <span className='inline-block bg-orange-400 bg-opacity-75 rounded px-1 py-1 text-sm font-[FBB] font-bold text-orange-900 hover:shadow-sm duration-150 hover:scale-105'>Astro</span>
               <span className='inline-block bg-sky-400 bg-opacity-100 rounded px-1 py-1 text-sm font-[FBB] font-bold text-sky-900 hover:shadow-sm duration-150 hover:scale-105'>TailwindCSS</span>
               <span className='inline-block bg-yellow-400 bg-opacity-75 rounded px-1 py-1 text-sm font-[FBB] font-bold text-yellow-900 hover:shadow-sm duration-150 hover:scale-105'>JavaScript</span>
+              <span className='inline-block bg-blue-500 bg-opacity-75 rounded px-1 py-1 text-sm font-[FBB] font-bold text-blue-900 hover:shadow-sm duration-150 hover:scale-105'>ReactJS</span>
             </div>
           </div>
           <div>
