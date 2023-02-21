@@ -91,13 +91,13 @@ const Projects = () => {
             </div>
           </div>
           <div>
-            <h2 className='text-2xl pt-3 font-[Tussila] font-extrabold'>README Components</h2>
+            <h2 className='text-[22px] pt-3 font-[Tussila] font-extrabold'>README Components</h2>
             <p className='font-[FBB] pl-[2px] md:pl-0'>Sitio web de diferentes componentes <br /> para tus archivos markdown </p>
             <div className='flex gap-2 pt-5'>
               <a href='https://github.com/FabianHMzz/readme-components' target='_blank' rel='noopener noreferrer' className='duration-150 hover:scale-105 hover:shadow-sm'>
                 <img src='https://img.shields.io/badge/Repo-100000?style=for-the-badge&logo=github&logoColor=white' alt='Repo' title='Repository' loading='lazy' />
               </a>
-              <a href='https://readmecomponents.vercel.app/' target='_blank' rel='noopener noreferrer' className='duration-150 hover:scale-105 hover:shadow-sm'>
+              <a href='https://www.readme-components.wiki' target='_blank' rel='noopener noreferrer' className='duration-150 hover:scale-105 hover:shadow-sm'>
                 <img src='https://img.shields.io/badge/Deploy-000000?style=for-the-badge&logo=vercel&logoColor=white' alt='Live Demo' title='Live Demostration' loading='lazy' />
               </a>
             </div>
