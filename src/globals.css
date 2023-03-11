@@ -13,19 +13,19 @@ body {
 @layer base {
     @font-face {
         font-family: 'Cindie';
-        src: url(/assets/Fonts/Cindie.woff2) format('woff2'), url(/assets/Fonts/Cindie.woff) format('woff');
+        src: url(/assets/Fonts/Cindie.woff2) format('woff2');
     }
     @font-face {
         font-family: 'FBB';
-        src: url(/assets/Fonts/FBB.woff2) format('woff2'), url(/assets/Fonts/FBB.woff) format('woff');
+        src: url(/assets/Fonts/FBB.woff2) format('woff2');
     }
     @font-face {
         font-family: 'Sequel';
-        src: url(/assets/Fonts/Sequel.woff2) format('woff2'), url(/assets/Fonts/Sequel.woff) format('woff');
+        src: url(/assets/Fonts/Sequel.woff2) format('woff2');
     }
     @font-face {
         font-family: 'Tussila';
-        src: url(/assets/Fonts/Tussila.woff2) format('woff2'), url(/assets/Fonts/Tussila.woff) format('woff');
+        src: url(/assets/Fonts/Tussila.woff2) format('woff2');
     }
 }
 
