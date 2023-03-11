@@ -3,7 +3,7 @@ import AboutMe2 from '../../assets/about-me2.webp'
 
 const About = () => {
   const info = [
-    { text: 'Meses de Experiencia', number: '+10' },
+    { text: 'Años de Experiencia', number: '01' },
     { text: 'Proyectos Completados', number: '03' },
     { text: 'Empresas en las que he trabajado', number: '02' }
   ]
@@ -31,7 +31,7 @@ const About = () => {
                 }
               </div>
             </div>
-            <a href='/assets/CV.pdf' download>
+            <a href='./assets/CV.pdf' download>
               <button className='btn-contact mt-5'>Descargar CV</button>
             </a>
           </div>
