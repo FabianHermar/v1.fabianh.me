@@ -11,7 +11,7 @@ const Header = () => {
     { name: 'Habilidades', link: '#skills' },
     { name: 'Proyectos', link: '#projects' },
     { name: 'Contacto', link: '#contact' },
-    { name: '✨VTX✨', link: 'https://visual-tradex.com' }
+    { name: '✨Boxode✨', link: 'https://www.boxode.org/' }
 
   ]
 
