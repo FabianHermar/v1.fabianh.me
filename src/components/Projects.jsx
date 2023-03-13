@@ -2,6 +2,7 @@ import CO from '../../assets/Projects/CO.webp'
 import SSD from '../../assets/Projects/SSD.webp'
 import DGT from '../../assets/Projects/DGT.webp'
 import RC from '../../assets/Projects/RC.webp'
+import BX from '../../assets/Projects/Boxode.webp'
 
 const Projects = () => {
   return (
@@ -104,28 +105,31 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* <div className='mt-2'>
-          <img alt='School System Design' src={SSD} className='h-52 md:h-56 md:w-auto rounded-md object-cover' loading='lazy' />
+        <div className='mt-2'>
+          <img alt='Boxode' src={BX} className='h-52 md:h-56 md:w-auto rounded-md object-cover' loading='lazy' />
           <div>
             <div className='flex gap-2 pt-2'>
-              <span className='inline-block bg-orange-400 bg-opacity-75 rounded px-1 py-1 text-sm font-[FBB] font-bold text-orange-900 hover:shadow-sm duration-150 hover:scale-105'>HTML5</span>
-              <span className='inline-block bg-blue-400 bg-opacity-100 rounded px-1 py-1 text-sm font-[FBB] font-bold text-blue-900 hover:shadow-sm duration-150 hover:scale-105'>CSS3</span>
+              <span className='inline-block bg-orange-400 bg-opacity-75 rounded px-1 py-1 text-sm font-[FBB] font-bold text-orange-900 hover:shadow-sm duration-150 hover:scale-105'>Astro</span>
+              <span className='inline-block bg-sky-400 bg-opacity-100 rounded px-1 py-1 text-sm font-[FBB] font-bold text-sky-900 hover:shadow-sm duration-150 hover:scale-105'>TailwindCSS</span>
               <span className='inline-block bg-yellow-400 bg-opacity-75 rounded px-1 py-1 text-sm font-[FBB] font-bold text-yellow-900 hover:shadow-sm duration-150 hover:scale-105'>JavaScript</span>
+              <span className='inline-block bg-blue-500 bg-opacity-75 rounded px-1 py-1 text-sm font-[FBB] font-bold text-blue-900 hover:shadow-sm duration-150 hover:scale-105'>ReactJS</span>
             </div>
           </div>
           <div>
-            <h2 className='text-2xl pt-3 font-[Tussila] font-extrabold'>Control Escolar</h2>
-            <p className='font-[FBB] pl-[2px] md:pl-0'>Diseño de sistema de <br /> control escolar</p>
+            <h2 className='text-2xl pt-3 font-[Tussila] font-extrabold'>Boxode</h2>
+            <p className='font-[FBB] pl-[2px] md:pl-0'>Página web empresarial de la <br />empresa boxode</p>
             <div className='flex gap-2 pt-5'>
-              <a href='https://github.com/FabianHMzz/School-System-Design' target='_blank' rel='noopener noreferrer' className='duration-150 hover:scale-105 hover:shadow-sm'>
+              <a href='https://github.com/Boxode/Boxode' target='_blank' rel='noopener noreferrer' className='duration-150 hover:scale-105 hover:shadow-sm'>
                 <img src='https://img.shields.io/badge/Repo-100000?style=for-the-badge&logo=github&logoColor=white' alt='Repo' title='Repository' loading='lazy' />
               </a>
-              <a href='#' target='_blank' rel='noopener noreferrer' className='disabled cursor-not-allowed pointer-events-none opacity-60'>
+              <a href='https://www.boxode.org/' target='_blank' rel='noopener noreferrer' className='duration-150 hover:scale-105 hover:shadow-sm'>
                 <img src='https://img.shields.io/badge/Deploy-000000?style=for-the-badge&logo=vercel&logoColor=white' alt='Live Demo' title='Live Demostration' loading='lazy' />
               </a>
             </div>
           </div>
         </div>
+
+        {/*
 
         <div className='mt-2'>
           <img alt='Home' src={DGT} className='h-52 md:h-56 md:w-auto rounded-md object-cover' loading='lazy' />
