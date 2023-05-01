@@ -6,6 +6,8 @@
 - _**Deploy:**_ [Vercel](https://vercel.com)
 - _**Styling:**_ [TailwindCSS](https://tailwindcss.com)
 
+---
+
 ### TODO
 
 - [ ] Create other version of the portfolio.
@@ -13,6 +15,8 @@
 - [ ] Create an original design that is related to the life of the developer.
 - [ ] Create timeline and additional information from the creator.
 - [ ] Create a more intuitive and striking design.
+
+---
 
 ### How to run in locally?
 
@@ -24,6 +28,8 @@ cd fabianhmz.dev-v1
 npm install or npm i
 npm run dev
 ```
+
+---
 
 ### Cloning / Forking
 
