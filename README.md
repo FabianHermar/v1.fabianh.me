@@ -27,4 +27,4 @@ npm run dev
 
 ### Cloning / Forking
 
-Please review the [license]() and remove all of my personal information (resume, images, etc.) if you use this template.
+Please review the [license](https://github.com/FabianHMzz/fabianhmz.dev/blob/main/LICENSE) and remove all of my personal information (resume, images, etc.) if you use this template.
