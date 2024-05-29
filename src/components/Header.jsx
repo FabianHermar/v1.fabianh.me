@@ -30,11 +30,6 @@ const Header = () => {
           : 'text-white'
       }`}
     >
-      <div>
-        <p className='text-white bg-gray-500 h-8 flex items-center justify-center'>
-          New version of the portfolio soon.
-        </p>
-      </div>
       <div className='flex items-center justify-between'>
         <div className='mx-7 select-none flex justify-center items-center gap-3'>
           <img src={FHLogo} alt='logo' className='w-18 h-10 drop-shadow-md' />
